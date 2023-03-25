@@ -1,0 +1,31 @@
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'D:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'Target 1'
+compiling main.c...
+.\APP\adc\adc.h(5): warning:  #1295-D: Deprecated declaration MYDMA_Config - give arg types
+  void MYDMA_Config();
+.\APP\water\water.h(9): warning:  #1295-D: Deprecated declaration Water_state_printf - give arg types
+  void Water_state_printf();
+.\APP\water\water.h(10): warning:  #1295-D: Deprecated declaration Get_LiquidHeight - give arg types
+  float Get_LiquidHeight();
+User\main.c(52): warning:  #223-D: function "pump_init" declared implicitly
+  	pump_init(); // 关于水泵
+User\main.c(61): warning:  #223-D: function "GPIO_Water_Config_check" declared implicitly
+  	GPIO_Water_Config_check(); // 用于检测传感器是否有信号，检测好坏的
+User\main.c(44): warning:  #177-D: variable "button"  was declared but never referenced
+  	u16 button, temp_z, temp_x = 0; // 计数器，整数部分，小数部分。
+User\main.c(44): warning:  #177-D: variable "temp_z"  was declared but never referenced
+  	u16 button, temp_z, temp_x = 0; // 计数器，整数部分，小数部分。
+User\main.c(44): warning:  #177-D: variable "temp_x"  was declared but never referenced
+  	u16 button, temp_z, temp_x = 0; // 计数器，整数部分，小数部分。
+User\main.c(45): warning:  #177-D: variable "temp"  was declared but never referenced
+  	float temp = 0;					// 液位
+User\main.c(46): warning:  #177-D: variable "my_str"  was declared but never referenced
+  	u8 my_str[100];
+User\main.c: 10 warnings, 0 errors
+compiling key.c...
+compiling store.c...
+linking...
+Program Size: Code=14488 RO-data=39208 RW-data=200 ZI-data=1288  
+FromELF: creating hex file...
+".\Obj\Template.axf" - 0 Error(s), 10 Warning(s).
+Build Time Elapsed:  00:00:02

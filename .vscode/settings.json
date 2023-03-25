@@ -1,0 +1,15 @@
+{
+    "files.associations": {
+        "cstdio": "c",
+        "system.h": "c",
+        "usart.h": "c",
+        "key.h": "c",
+        "led.h": "c",
+        "tftlcd.h": "c",
+        "waterpump.h": "c",
+        "waterflow.h": "c",
+        "TEST.C": "cpp",
+        "TEST2.C": "cpp",
+        "store.h": "c"
+    }
+}
